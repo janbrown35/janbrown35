@@ -1,0 +1,101 @@
+body {background:#cdbfeb;}
+#wrapper {margin:auto; max-width:1200px; min-width:980px; background:#a988ec;
+border:10px white solid; font-size:medium;}
+header,nav,article,section,figure,footer { display:block;}
+header {margin-top:0; border-bottom:5px white solid; height:50px;}
+h1 {margin-top:15px; text-align: center; font-size:250%; color:black;
+font-weight:bold;}
+h2 {font-size:150%; text-align:center;}
+h3 {font-size:150%; text-align:left;}
+#right-header-text {
+  font-size: 200%;
+  text-align: right;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  }
+p {font-size:120%; text-align:center;}
+a {font-size:120%; text-decoration: none;}
+/*add a left col*/
+#leftcol {float:left; width:150px;}
+#rightcol {float:right; width:150px; height:190px;}
+#midcol {margin-left:155px; margin-right:155px;}
+br.clear {clear:both}
+#midcol-left {float:left; width:46%; font-weight:bold;}
+#midcol-right {float:right; width:50%; font-weight:bold;}
+/*set horizontal button menu*/
+nav ul {float:left; width:1000px; height:40px; margin-left:100px;
+text-align:center; padding-left:0;list-style-type:none;}
+/*set general horizontal menu button styles*/
+nav ul li {display:inline-flex;}
+li.btn {width:150px; line-height:1; margin-bottom:10px; margin-right:10px;
+text-align:left; padding: 10px 10px;}
+/* set general access (anchor) styles */
+li.btn a {display:inline-flex; width:130px; color:black; font-family:arial;
+font-size:100%; font-weight:bold; text-decoration:none;}
+
+/* mouseout (default) */
+li.btn a {background: #a988ec; border:4px outset white;}
+/* mouseover */
+li.btn a:hover {background:#0A4ADF; border:4px outset #8ABAFF;}
+/* mousedown */
+li.btn a:active {background:#AECBFF; border:4px inset #AECBFF; }
+
+#footer {
+  min-height: 100px;
+  display:inline;
+  }
+#footer-text {
+  font-size: 28px;
+}
+#bottom-nav {
+  display:flex;
+  background-color: gray;
+  justify-content: space-around;
+}
+.nav-btn {
+   display:inline-flex; width:115px; color:black; font-family:arial;
+  font-size:100%; font-weight:bold; text-decoration:none; text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  #header {
+    min-width: 740px;
+      }
+  #header-text {
+    min-width: 740px;
+  }
+  #top-nav {
+    min-width: 240px;
+  }
+  #nav-btn {
+    font-size: 11px;
+    display flex;
+  }
+#main-container {
+  font-size: 11px;
+  display: inline;
+  }
+#content-text {
+  font-style: 11px;
+}
+img {
+  diplay: 100%;
+  align-content: center;
+  padding: 0;
+}
+#right-column {
+  display:inline;
+}
+#left-column {
+  display: inline;
+}
+
+#bottom-nav {
+  display: none;
+}
+#footer {
+  display: none;
+}
+#footer-text {
+  display: none;
+}
