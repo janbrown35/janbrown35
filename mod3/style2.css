@@ -1,0 +1,120 @@
+
+body {
+  margin: 0px;
+  font-family: Arial, sans-serif;
+}
+#header {
+  background-color:#a988ec;
+  color: black;
+  padding-top: 0px;
+}
+#header-text {
+  font-size: 36px;
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+}
+#right-header-text {
+  font-size: 30px;
+  display: flex;
+  padding-bottom: 15px;
+  justify-content: right;
+}
+#logo {
+  padding-top: 15px;
+  display: grid;
+}
+#top-nav {
+  display: flex;
+  background-color: #beaae9;
+  justify-content: space-around;
+}
+.nav-btn {
+  padding: 5px 70px;
+}
+#main-container {
+  min-height: 480px;
+  display: flex;
+  background-color: #ddd7ea;
+}
+#main-content {
+  flex-basis: 100%;
+  background-color: #dad3e9
+}
+#content-text {
+  padding: 10px;
+}
+#left-column {
+  float:left;
+  width:25%;
+  padding-left 30px;
+  padding-right: 10px;
+}
+#mid-column {
+  Width:20%;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+#right-column {
+  float:right;
+  width: 25%;
+  padding-right: 10px;
+}
+#footer {
+  min-height: 100px;
+  display:inline;
+}
+#footer-text {
+  font-size: 28px;
+}
+#bottom-nav {
+  display:flex;
+  background-color: gray;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 768px) {
+#header {
+    min-width: 760px;
+  }
+#header-text {
+    min-width: 760px;
+  }
+#top-nav {
+    min-width: 20px;
+    justify-content: center;
+  }
+.nav-btn {
+    font-size: 15px;
+    display: flex;
+  }
+#main-container {
+  font-size: 11px;
+
+}
+#main-content {
+  font-size: 15px;
+}
+#content-text {
+  font-style: 15px;
+}
+
+img {
+  display: 100%;
+  padding: 0;
+}
+#right-column {
+
+}
+#left-column {
+
+  font-size: 15px;
+}
+#bottom-nav {
+display: none;
+}
+#footer {
+  display: none;
+}
+#footer-text {
+  display: none;
+}

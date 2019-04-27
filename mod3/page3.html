@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Radiology Support Unite Events and Education</title>
+    <meta charset=utf-8>
+    <link href="style3.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+  </head>
+  <body>
+    <div id="header">
+      <div id="logo">
+        <img src="RSA logo.JPG"  alt="RSA logo"></div>
+      <div id="header-text">Radiology Support Unite</div>
+      <div id="right-header-text"> Events and Education</div>
+      <div id="top-nav">
+        <a href="index.html">Home</a>
+        <div class="nav-btn">Menu</div>
+        <div class="nav-btn">About Us</div>
+        <div class="nav-btn">Log In</div>
+        <div class="nav-btn">Search</div>
+      </div>
+    </div>
+    <div id="main-container">
+
+      <div id="left-column"> This is the left column fo menu of links different professional societies related to radiology support, radiology, and information technology. </div>
+
+      <div id="main-content"> The main content will have links for different Radiology Support Events and Links for getting education for Radiology Support as well as continuing education for those already registered and or certified in Radiology Support.</div>
+      
+
+      <div id="content-text"> 
+        
+      <?php
+include 'mod3_config.php';
+include 'mod3_opendb.php';
+
+$sql ="SELECT * FROM organization LIMIT 10";
+$result = mysqli_query($conn, $sql);
+
+echo "<div id='label-row'><div class='label'>name</div><div class='label'>address</div><div class= 'label'>website</div><div class= 'label'>email</div>";
+
+
+?>
+      </div>
+
+      <div id="mid-column">
+      </div>
+
+
+    </div>
+
+    <div id="footer"></div>
+    <div id="footer=text"></div>
+    <div id="bottom-nav">
+      <div class="nav-btn">Back to Top</div>
+      <div class="nav-btn">Events and Education</div>
+      <div class="nav-btn">Copyright</div>
+      <div class="nav-btn">Privacy</div>
+      <div class="nav-btn">Legal</div>
+    </div>
+
+
+  </body>
+</html>
+
+
+
