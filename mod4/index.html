@@ -4,6 +4,7 @@
     <title>Radiology Support Unite Home Page</title>
     <meta charset=utf-8>
     <link href="style-3dh.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style type="text/css">
 
 figure {float:left; margin:15 20px 0 0;}

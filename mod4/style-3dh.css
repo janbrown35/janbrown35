@@ -1,3 +1,6 @@
+/*Make images responsive*/
+img {max-width: 100%;}
+/*set basic styles for all viewports*/
 body {background:#cdbfeb;}
 #wrapper {margin:auto; max-width:1200px; min-width:980px; background:#a988ec;
 border:10px white solid; font-size:medium;}
