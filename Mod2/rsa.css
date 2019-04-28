@@ -1,0 +1,64 @@
+/*
+This is a Cascading Style Sheet (CSS).
+It describes rules for styling your HTML markup.
+
+To use this file, place the following <link> tag anywhere in the <head> of your HTML file, making sure that the filename after "href" matches the name of your file....
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+This is for CSS style sheet for Tips, Blogs and Forums
+*/
+
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+
+
+header {
+  background-color: yellow;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: rebeccapurple;}
+/* the main color for text on this webpage is rebeccapurple*/
+
+
+
+body {
+  background-color: yellow;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: rebeccapurple;
+ }
+
+a {text-align: center; padding-left: 100px; text-decoration: underline;}
+
+<style>
+a:link {color: black;}
+a:visited {color: mediumpurple;}
+a:hover {color: fuchsia;}
+a:active {color:blue;}
+</style>
+.feature {font-weight: bolder;
+  font-family: Georgia, "Times New Roman", serif;
+  color:rebeccapurple;
+  font-size: 1.25em; } 
+
+/* feature is the main font for paragraph text for this webpage*/
+
+#wrapper {margin:0;
+          width:90%;
+          min-width: 960px; max-width: 1200px;
+          background-color: #d6d624;
+          color: rebeccapurple;
+          font-style: oblique;}
+
+main {background-color: yellow;
+      color: rebeccapurple;
+      padding: 10px 20px; display: block;
+      overflow: auto;}
